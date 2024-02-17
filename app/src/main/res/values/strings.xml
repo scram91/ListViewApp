@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ListViewApp</string>
+    <string-array name="array_courses">
+        <item>Design Patterns</item>
+        <item>Software Systems Architecture</item>
+    </string-array>
+</resources>
