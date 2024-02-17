@@ -12,7 +12,6 @@ public class ItemInformation implements Serializable {
         this.credits = credits;
         this.description = description;
     }
-
     public int getID() {
         return id;
     }
@@ -20,6 +19,7 @@ public class ItemInformation implements Serializable {
     public int getCredits() {
         return credits;
     }
+
 
     public String getDescription() {
         return description;

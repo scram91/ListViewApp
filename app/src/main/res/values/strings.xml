@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">ListViewApp</string>
+    <string name="information">Information</string>
+    <string name="returnButton">Return</string>
     <string-array name="array_courses">
         <item>Design Patterns</item>
         <item>Software Systems Architecture</item>
