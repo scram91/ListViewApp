@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<ItemInformation> loadItemData() {
         ArrayList<ItemInformation> item = new ArrayList<>();
 
-        item.add(new ItemInformation("SWENG581",
+        item.add(new ItemInformation("SWENG888",
                 "Everton Guimares",
                     "Mobile App Development",
                 "Learning to create mobile applications on the Android operating system"));
