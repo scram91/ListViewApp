@@ -8,22 +8,33 @@
     tools:context=".InformationViewActivity">
 
     <TextView
-        android:id="@+id/information_text_view"
+        android:id="@+id/textview_item_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
+        app:layout_constraintTop_toBottomOf="@id/textview_item_professor" />
+
+    <TextView
+        android:id="@+id/information_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:padding="2dp"
         android:text="@string/information"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/information_description"
+        android:id="@+id/textview_item_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/information_text_view" />
+        app:layout_constraintTop_toBottomOf="@id/information_item_title" />
+    <TextView
+        android:id="@+id/textview_item_professor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textview_item_id"/>
 
     <Button
         android:id="@+id/return_button"
